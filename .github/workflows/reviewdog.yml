@@ -11,5 +11,6 @@ jobs:
         with:
           github_token: ${{ secrets.github_token }}
           level: error
+          fail-on-error: true
           reporter: github-check
           yamllint_flags: "testdata/"
